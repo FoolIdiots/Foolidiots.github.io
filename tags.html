@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>about | FoolIdiot blog</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <title>tags | FoolIdiot blog</title>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="../js/third-party/jquery.min.js">
+    <script src="js/third-party/jquery.min.js">
     </script>
-    <script src="../js/third-party/velocity.min.js">
+    <script src="js/third-party/velocity.min.js">
     </script>
-    <script src="../js/third-party/velocity.ui.min.js">
+    <script src="js/third-party/velocity.ui.min.js">
     </script>
-    <link rel="icon" href="../img/FoolIdiots.ico">
+    <link rel="icon" href="img/FoolIdiots.ico">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <nav class="clear-fix" id="nav-container">
             <div class="pull-left" id="page-home"><a href="/">FoolIdiot blog</a></div><i class="fa fa-bars pull-right" id="toggle-nav" aria-hidden="true"></i>
             <ul class="pull-right" id="navs">
-                <li><a class="nav" href="../">Home</a></li>
+                <li><a class="nav" href="/">Home</a></li>
                 <li><a class="nav" href="about.html">About</a></li>
                 <li><a class="nav" href="tags.html">Tags</a></li>
             </ul>
@@ -40,15 +40,22 @@
                         </ul>
                         <div id="file-path"><i class="fa fa-folder folder-ic" aria-hidden="true"></i> FoolIdiot 10 X 10</div>
                     </div>
-                    <div id="code-pl">Last updated: 2021-02-20<br>foolidiot:~ Desktop$ <span class="code-pl-input">node about.js</span><br><br>> FoolIdiot.locations<br>[<span class="answer">WuHan, Shenzhen</span>]<br><br>> FoolIdiot.education<br><span class="answer">NEU BUPT</span><br><br>>
-                        FoolIdiot.interests
-                        <br>[<span class="answer">coding, sleeping, reading</span>]<br><br>> FoolIdiot.github<br><a href="https://github.com/FoolIdiots" target="_blank"><span class="answer">github.com/FoolIdiots</span></a></div>
+                    <div id="code-pl">Last updated: 2021-02-20<br>foolidiot:~ Desktop$ <span class="code-pl-input">node tags.js</span><br><br>> Tags.all <br>
+                        <a class="tag" href="#hello"><span>hello</span></a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <div id="content-outer">
-        <div id="content-inner"></div>
+        <div id="content-inner">
+            <div class="one-tag-list"><i class="fa fa-tag fa-2x"></i><span class="tag-title" id="hello">hello</span>
+                <div class="post-preview">
+                    <div class="post-title"><a href="2021-02-20/hello.html">Hello</a></div>
+                    <hr>
+                </div>
+            </div>
+        </div>
     </div>
     <footer>
         <div id="footer-inner">
@@ -57,10 +64,10 @@
             <p class="copyright">Copyright © FoolIdiot Blog 2021</p>
         </div>
     </footer>
-    <script src="../js/nav.js"></script>
-    <script src="../js/vue.config.js"></script>
-    <script src="../js/scroll.js"></script>
-    <script src="../js/index.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/vue.config.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

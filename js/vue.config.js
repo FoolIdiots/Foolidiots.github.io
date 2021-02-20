@@ -7,5 +7,7 @@ chainWebpack: config => {
             filename: `css/[name].css`,
             chunkFilename: `css/[name].css`
         }])
+
+
     }
 },
