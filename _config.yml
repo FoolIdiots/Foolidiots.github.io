@@ -67,7 +67,7 @@ social:
   # github: https://github.com/xxx
   
 # Miscelaneous
-favicon: /favicon.ico
+favicon: /img/favicon.ico
 
 # stylesheets loaded in the <head>
 stylesheets:
