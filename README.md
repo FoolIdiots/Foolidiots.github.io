@@ -1,1 +1,1 @@
-# FoolIdiots.github.io
+# mola.github.io
