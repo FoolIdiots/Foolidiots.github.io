@@ -1,0 +1,1 @@
+# FoolIdiots.github.io
